@@ -5,11 +5,11 @@ import spidev
 from urllib.request import urlopen
 import sms
 
-APIkey = "HUZGRHGV28WYKY15"
-baseURL = "https://api.thingspeak.com/update?api_key=HUZGRHGV28WYKY15&field1=0"
+APIkey = #your write api key
+baseURL = "https://api.thingspeak.com/update?api_key=#your write api key=0"
 
-APIkey = "HUZGRHGV28WYKY15"
-baseURL = "https://api.thingspeak.com/update?api_key=HUZGRHGV28WYKY15&field2=0"
+APIkey = #your write api key
+baseURL = "https://api.thingspeak.com/update?api_key=#your write api key&field2=0"
 
 GPIO.setmode(GPIO.BCM)
  
